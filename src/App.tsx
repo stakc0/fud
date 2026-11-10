@@ -23,7 +23,7 @@ const rates = [
   {flag:'🇳🇬',code:'NGN',name:'Nigerian Naira',rate:1328.0,usd:.0007526,region:'Africa'},
 ];
 const backgroundGlyphs=['¥','¢','₺','€','₽','₱','£','₡','₹','₩','₫','₣','$'];
-const MAIN_COIN='9Qupg3SW3BFC9W2cUDq2SZKbpRE1DpxbLtBRthqpfud';
+const MAIN_COIN='RYzjsaBVJRL5xUb4BXG1gK5GfywsWfnXtmTxzqgRfud';
 const API_BASE='';
 const routeMap:Record<string,string>={Explore:'/explore','Get currency':'/money','Launch a coin':'/launch',Portfolio:'/portfolio','Creator earnings':'/claim','Exchange rates':'/rates','How it works':'/docs','X':'https://x.com/fuddotrun'};
 type Coin={name:string;ticker:string;currency:string;flag:string;image:string;price:string;change:number;mc:number;local:string;vol:string;trades:number;progress:number;age:string;address:string};
